@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet"  type="text/css" href="style.css" />
+  <link rel="stylesheet"  type="text/css" href="css/style.css" />
+  <script type='text/javascript' src='jquery.particleground.js'></script>
+  <script type='text/javascript' src='js/demo.js'></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel = "icon" href = "assets/favicon.ico" type = "image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+  <title>Somya Agarwal- Data Analyst/Data Scientist</title>
+  <meta name="description" content="Rohan Kumar Singh- AI/ML" />
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="main-header__logo-container">
+      <div class="main-header__logo-img-cont">
+        <img
+          src="./assets/Raj.jpg"
+          alt="logo Image" class="main-header__logo-img" />
+      </div>
+      <h4 class="main-header__logo-text">Somya Agarwal</h4>
+    </div>
+    <nav class="main-header__navigation">
+      <ul class="main-header__navigation-links">
+        <li class="main-header__navigation-link"><a href="./index.html"> Home </a></li>
+        <li class="main-header__navigation-link"><a href="./index.html#about"> About </a></li>
+        <li class="main-header__navigation-link"><a href="./index.html#projects"> Projects </a></li>
+        <li class="main-header__navigation-link"><a href="./index.html#blogs"> Blogs </a></li>
+        <li class="main-header__navigation-link"><a href="./index.html#contact"> Contact </a></li>
+      </ul>
+    </nav>
+    <div class="main-header__sm-scr-nav-btn">
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+    </div>
+    <div class="main-header__sm-menu">
+      <div class="main-header__sm-menu-close">
+      </div>
+      <ul class="main-header__sm-menu-links">
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--1" name="home-hero">Home</a>
+        </li>
+
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--2" name="about">About</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--3" name="projects">Projects</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--3" name="blogs">Blogs</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--4" name="contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <table>
+    <tr>
+    <!--<td><img src="assets/darkmode.jpg" height="40px" width="40px"></td>-->
+    <td><input type="checkbox" id="mode"></td>
+    <script src="index.js"></script>
+    <td><a href="https://drive.google.com/file/d/1dj2kJdGzvAbh3gxVpPIth7AfKUzATGI6/view?usp=sharing" target="_blank"><button class="btn btn-inv btn-sm">Resume</button></a></td>
+  </tr></table>
+    <script>
+      // When the user scrolls the page, execute myFunction 
+      window.onscroll = function() {myFunction()};
+      
+      function myFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+      }
+    </script>
+  </header>
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+  <script>
+    $(function() {
+     $('.scroll-down').click (function() {
+       $('html, body').animate({scrollTop: $('section.ok').offset().top }, 'slow');
+       return false;
+     });
+   });
+ </script>
+  <table class="rohan">
+  <div id="particles">
+    <div id="intro">
+      <!--<h3 class="abc">Hello 👋</h3>-->
+      <h1 class="abc">Somya Agarwal</h1>
+      <p class="asd">I'm an aspiring Data Scientist/Data Analyst</p>
+      <!--<a href="" class="btnr">Download</a>-->
+      <section class='zxc'>
+        <a href="#oh" class="scroll-down" address="true"></a>
+      </section>
+    </div>  
+  </div>
+  </table>
+  <section class="ok"><a id="oh"></a>
+  </section>
+  <section id="home-hero" class="home-hero">
+    <div class="home-hero__content main_container">
+      <div class="home-hero__info">
+        <h1 class="heading-primary home-hero__heading-primary">
+          <span class="heading-primary__sm"><big>Hello 👋</big></span>
+          <span class="text heading-primary__main container">
+            It's me <span class="text">Somya Agarwal</span> <br/>
+           And I'm into <span class="cath sec-text">Machine Learning</span>
+          </span>
+        </h1>
+        <a href="./index.html#projects"><button class="btn btn-theme home-hero__btn-theme">Projects</button></a>
+        <a href="./index.html#blogs"><button class="btn btn-theme home-hero__btn-theme">Blogs</button></a>
+        <a href="./index.html#contact"><button class="btn btn-inv home-hero__btn-theme">Contact</button></a>
+      </div>
+      <div>
+        <img src="assets/Raj_new.jpg" class="dp"/>
+      </div>
+    </div>
+  </section>
+  <a href="https://github.com/Somya2115" class="github" target="_blank">
+    <img src="assets/github-mark.png" height="30px" width="30px" class="inv"></a>
+
+  <a href="https://www.linkedin.com/in/somya2/" class="lin" target="_blank">
+    <img src="assets/linkedin-ico.png" height="30px" width="30px" class="inv"></a>
+
+  <a href="https://medium.com/@agarwal1001poonam" class="Medium" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Medium_logo_Monogram.svg" class="inv"></a>
+  
+  <!--<a href="https://www.kaggle.com/somya2115" class="kaggle" target="_blank">
+    <img src="assets/kbg.png" height="30px" width="30px" class="inv"></a>-->
+      
+  <section id="about" class="about main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"><big> About 🦄</big></span>
+        <span class="heading-secondary__main">
+          Here you will find more information about me, what I do, and list of my current skills in programming
+      </h2>
+      <div class="main-section__content">
+        <div class="about__info">
+          <div class="about__main-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              Diving Into Data: My Story
+            </h3>
+            <p class="text-primary about__text-primary">
+              <span>
+                Hey there! I'm Somya, a data enthusiast driven by curiosity and fueled by passion. With a background of B.Sc in Statistics and M.Sc in Data Science, I've embarked on a thrilling journey through the world of data science and analytics.I have experience in Machine Learning and Deep Learning. Currently, exploring NLP.
+                I am a sophomore at <b>Harcourt Butler Technical University </b>
+                I am currently looking for <b>opportunities On-site/Remote</b>.
+              </span>
+            </p>
+            <a href="./index.html#projects"><button class="btn btn-theme about__btn-theme" >Projects</button></a>
+          </div>
+          <div class="about__skill-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              My Skills
+            </h3>
+            <ul class="about__skills">
+              <li class="about__skill">c++</li>
+              <li class="about__skill">python</li>
+              li class="about__skill">statistics</li>
+              <li class="about__skill">tensorflow</li>
+              <li class="about__skill">ML</li>
+              <li class="about__skill">R</li>
+              <li class="about__skill">EDA</li>
+              <li class="about__skill">Data Wrangling</li>
+              li class="about__skill">RStudio</li>
+              <li class="about__skill">NLP</li>
+              <li class="about__skill">Data Analysis</li>
+              <li class="about__skill">pandas</li>
+              <li class="about__skill">numpy</li>
+              <li class="about__skill">SQL</li>
+              <li class="about__skill">JupyterNotebook</li>
+              <li class="about__skill">DL</li>
+			  <li class="about__skill">excel</li>
+			  li class="about__skill">PowerBI</li>
+              <li class="about__skill">Scikit</li>
+              <li class="about__skill">seaborn</li>
+              <li class="about__skill">neural networks</li>
+              <li class="about__skill">matplotlib</li>
+              <li class="about__skill">mysql</li>
+              <li class="about__skill">html</li>
+              <li class="about__skill">css</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills-showcase">
+    <ul class="skills-showcase__list">
+      <li class="skills-showcase__list-item">
+        <i class="devicon-cplusplus-plain colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-python-plain colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-tensorflow-original colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Rlogo.png" height="50" width="42">
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-numpy-original colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" height="50" width="42">
+      </li>
+      <li class="skills-showcase__list-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Microsoft_Excel_Logo_%282013-2019%29.svg" height="50" width="42">
+      </li>
+      <li class="skills-showcase__list-item">
+<i class="devicon-mysql-plain colored"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" height="50" width="42">
+      </li>
+      <li class="skills-showcase__list-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" height="50" width="42">      </li>
+      <li class="skills-showcase__list-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" height="50" width="42">
+      </li>
+    </ul>
+  </section>
+  <section id="projects" class="projects main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> <big>Projects 🛠️</big></span>
+        <span class="heading-secondary__main">
+          Here you will find some of the personal and clients projects that I created with the project details
+        </span>
+      </h2>
+      <div class="main-section__content">
+        <div class="projects__list">
+
+            <div class="projects__list-item projects__list-item--inv">
+              <div class="projects__list-item-count">
+                <span class="projects__list-item-count-num"> 3 </span>
+                <span class="projects__list-item-count-line"> </span>
+                <span class="projects__list-item-count-end-dot"> </span>
+              </div>
+              <div class="projects__list-item-details">
+                <div class="projects__list-item-img-cont">
+                  <img src="./assets/mock55.gif" alt="Project Image" class="projects__list-item-img" />
+                </div>
+                <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                  Sarcastic Chatbot
+                </h3>
+  
+                <p class="text-primary projects__list-item-text-primary">
+                  <span>
+                    This chatbot is a fine-tuned version of T5(Text-to-Text Transfer Transformer) for conversational purposes. Chatbot is incorporated with MongoDB for saving and downloading chats with faster query. Dataset was retrieved from reddit comments of subreddits which indulge in mockery and sarcasm. It is deployed using Streamlit and gradio framework.
+                  </span>
+                  <span>
+                    Special thanks to Reddit for making the dataset available publicly.
+                  </span>
+                </p>
+              
+                <div class="dropdown">
+                <button class="btn btn-theme projects__btn-theme">
+                  Live Link
+                </button>
+                  <div class="dropdown-content">
+                    <a href="https://huggingface.co/spaces/RohanHBTU/Sarcastic_bot_streamlit" target="_blank">Streamlit+MongoDB</a>
+                    <a href="https://huggingface.co/spaces/RohanHBTU/Sarcastic_chatbot" target="_blank">Gradio</a>
+                  </div>
+                </div>
+              
+                <div class="dropdown">
+                <button class="btn btn-inv projects__btn-inv">Code Link</button>
+                <div class="dropdown-content-inv">
+                  <a href="https://huggingface.co/spaces/RohanHBTU/Sarcastic_bot_streamlit/tree/main" target="_blank">Streamlit</a>
+                  <a href="https://huggingface.co/spaces/RohanHBTU/Sarcastic_chatbot/tree/main" target="_blank">Gradio</a>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 1 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/mock1.png" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Hinglish-Eng Transformer
+              </h3>
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  This is a NMT (neural machine translation) model using Seq2Seq with Bahdanau attention mechanism comprising of GRU RNN cell. Served using FastAPI and achieved BLEU score of 40 by training on 200K samples (Hinglish to English). It transforms Hinglish text (in roman script) to English text.`
+                </span>
+               
+                <span>
+                  Special thanks to Google research for making the dataset available publicly on github. Still, scarcity of Hinglish corpus(Roman script) is affecting the BLEU score.
+                </span>
+              </p>
+              <div class="dropdown">
+                <button class="btn btn-theme projects__btn-theme">
+                  Live Link
+                </button>
+                  <div class="dropdown-content">
+                    <a href="https://huggingface.co/spaces/RohanHBTU/hinglish-en-transl" target="_blank">HuggingFace</a>
+                    <a href="https://rohanhbtu-hinglish-fastapi.hf.space/docs" target="_blank">FastAPI</a>
+                  </div>
+                </div>
+              
+                <div class="dropdown">
+                <button class="btn btn-inv projects__btn-inv">Code Link</button>
+                <div class="dropdown-content-inv">
+                  <a href="https://github.com/RohanHBTU/Hinglish-Transformer" target="_blank">HuggingFace</a>
+                  <a href="https://huggingface.co/spaces/RohanHBTU/Hinglish_FastAPI/tree/main" target="_blank">FastAPI</a>
+                </div>
+                </div>
+            </div>
+          </div>
+          
+          <div class="projects__list-item projects__list-item--inv">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 3 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/mock4.png" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Bangalore Home Price Prediction
+              </h3>
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  This is a end to end ML project which implemented Linear Regression model using dockers and automated workflow with Github Actions. I have used Flask Server as backend and HTML, CSS for frontend.
+                </span>
+                <span>
+                  Special thanks to AMITABHACHAKRABORTY for making the Bengaluru price dataset available publicly on kaggle.
+                </span>
+              </p>
+              <a href="https://bhp-docker.onrender.com/" target="_blank">
+              <button class="btn btn-theme projects__btn-theme">
+                Live Link
+              </button></a>
+              <a href="https://github.com/RohanHBTU/bhp-docker-deployment" target="_blank">
+              <button class="btn btn-inv projects__btn-inv">Code Link</button></a>
+            </div>
+          </div>
+
+
+          
+          <div class="projects__list-item">
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/mock3.png" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Spam Classifier
+              </h3>
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  This is an end-to-end NLP project based on SMS Spam Collection Dataset available on kaggle capable of predicting whether the message is ham or spam with good precision and accuracy using a classifier. Note: Please ensure you have the necessary libraries installed before running this project.
+                </span>
+               
+                <span>
+                  Special thanks to UCI Machine Learning Repository for making the dataset available publicly on kaggle.
+                </span>
+              </p>
+              <a href="https://rohanhbtu-spam-classifier-app-znu909.streamlit.app/" target="_blank">
+              <button class="btn btn-theme projects__btn-theme">
+                Live Link
+              </button></a>
+              <a href="https://github.com/RohanHBTU/spam_classifier" target="_blank">
+              <button class="btn btn-inv projects__btn-inv">Code Link</button></a>
+            </div>
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 4 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+          </div>
+          <div class="projects__list-item projects__list-item--inv">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 3 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/mock2.png" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Recommender System
+              </h3>
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  This is an end-to-end ML project based on Book Recommendation Dataset available on kaggle capable of finding similar or recommended books based on collaborative filtering technique(Popularity based RS is included in notebook).
+                </span>
+                <span>
+                  Special thanks to TMDDB for making the dataset available publicly on kaggle.
+                </span>
+              </p>
+              <a href="https://rohanhbtu-recommender-system-app-md5aee.streamlit.app/" target="_blank">
+              <button class="btn btn-theme projects__btn-theme">
+                Live Link
+              </button></a>
+              <a href="https://github.com/RohanHBTU/recommender_system" target="_blank">
+              <button class="btn btn-inv projects__btn-inv">Code Link</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary">
+        <span class="heading-secondary__sm"> <big>Contact 📞</big></span>
+        <span class="heading-secondary__main">
+          Feel free to Contact me by submitting the form below and I will get back to you as soon as possible
+        </span>
+      </h2>
+      <div class="main-section__content">
+        <div class="contact__form-cont">
+          <form class="contact__form" action="https://formsubmit.co/rohank587@gmail.com" method="post">
+            <div class="contact__form-field">
+              <label for="name" class="contact__form-field-label">Name</label>
+              <input placeholder="Enter Your Name" type="text" name="name" class="contact__form-field-input" required/>
+            </div>
+            <div class="contact__form-field">
+              <label for="name" class="contact__form-field-label">Email</label>
+              <input placeholder="Enter Your Email" type="email" name="email" class="contact__form-field-input" required/>
+            </div>
+            <div class="contact__form-field">
+              <label for="name" class="contact__form-field-label">Message</label>
+              <textarea placeholder="Enter Your Message" name="message" id="" cols="30" rows="10"
+                class="contact__form-field-input" required></textarea>
+            </div>
+            <button type="submit" class="contact__form-submit">Submit</button>
+          </form>
+          <div class="contact__form-visual"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-footer__upper">
+      <div class="main-container">
+        <ul class="main-footer__links">
+          <li class="main-footer__link">
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#about">About</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#projects">Projects</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#contact">Contact</a>
+          </li>
+        </ul>
+        
+        <!--<div class="main-footer__socials">
+          <a href="https://github.com/RohanHBTU" class="main-footer__social-link" target="_blank">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="https://www.instagram.com/rohan_ks_here" class="main-footer__social-link" target="_blank">
+            <img src="./assets/icons8-instagram-48.png" alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="https://twitter.com/rohank587" class="main-footer__social-link" target="_blank">
+            <img src="./assets/icons8-twitter-50.png" alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="https://www.linkedin.com/in/rohan-kumar-singh-b17400227/" class="main-footer__social-link" target="_blank">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="https://www.kaggle.com/rohanhbtu" class="main-footer__social-link" target="_blank">
+            <img
+              src="assets/download.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a>
+        </div>-->
+      </div>
+    </div>
+    <div class="main-footer__mid-line"></div>
+    <div class="main-footer__bottom">
+      <div class="main-container">
+        <p class="main-footer__bottom-txt">
+          <a href="#">Made with ❤️ and guidance from GDSC HBTU and crackDSA</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <a href="#"><img src="15.png" class="back-to-top"></a>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="global.js"></script>
+</body>
+
+</html>
